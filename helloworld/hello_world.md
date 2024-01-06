@@ -768,7 +768,7 @@ download(model_repo='OpenLMLab/InternLM-7b', model_name='InternLM-7b', output='y
 
 - 中小学数学大模型：一个拥有一定数学解题能力的大模型
   * 参考资料：
-      * [MAmmoTH](https://github.com/TIGER-AI-Lab/MAmmoTH?tab=readme-ov-file)
+    * [MAmmoTH](https://github.com/TIGER-AI-Lab/MAmmoTH?tab=readme-ov-file)
   	* [abel](https://github.com/GAIR-NLP/abel)
   	* 数据集：[GSM8K](https://github.com/openai/grade-school-math)
 
