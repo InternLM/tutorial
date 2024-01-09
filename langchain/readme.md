@@ -42,7 +42,7 @@
 
 ```shell
 bash
-conda create --name InternLM --clone=/root/share/conda_envs/internlm-base
+/root/share/install_conda_env_internlm_base.sh InternLM
 ```
 
 然后使用以下命令激活环境
@@ -673,3 +673,35 @@ ssh -CNg -L 7860:127.0.0.1:7860 root@ssh.intern-ai.org.cn -p 33090
 ![Alt text](figures/image-55.png)
 
 我们在仓库中也同步提供了上述所有脚本，可以查看该教程文件的同级目录的 `demo` 文件夹。
+
+
+## 6 作业
+
+
+提交方式：在各个班级对应的 GitHub Discussion 帖子中进行提交。
+
+
+**基础作业**：
+
+复现课程知识库助手搭建过程 (截图)
+
+
+**进阶作业**：
+
+选择一个垂直领域，收集该领域的专业资料构建专业知识库，并搭建专业问答助手，并在 [OpenXLab](https://openxlab.org.cn/apps) 上成功部署（截图，并提供应用地址）
+
+**整体实训营项目：**
+
+时间周期：即日起致课程结束
+
+即日开始可以在班级群中随机组队完成一个大作业项目，一些可提供的选题如下：
+
+- 人情世故大模型：一个帮助用户撰写新年祝福文案的人情事故大模型
+- 中小学数学大模型：一个拥有一定数学解题能力的大模型
+- 心理大模型：一个治愈的心理大模型
+- 工具调用类项目：结合 Lagent 构建数据集训练 InternLM 模型，支持对 MMYOLO 等工具的调用
+- 其他基于书生·浦语工具链的小项目都在范围内，欢迎大家充分发挥想象力。
+
+
+
+
